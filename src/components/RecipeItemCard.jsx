@@ -11,9 +11,7 @@ import {
 
   
   export const RecipeItemCard = ({ recipe, onClick }) => {
-  // console.log("recipe666", recipe)
 
-  
   
     return (
       <Card
@@ -74,19 +72,3 @@ import {
       </Card>
     );
   };
-
-
-  // const hoi = data.hits.map(({recipe}) =>{
-  //   recipe.healthLabels.map((labels) =>(
-  //   labels === "Vegan" ? labels : "hello"
-  //   ))
-  // })
-  
-  // const wiehoee = item.healthLabels.map((labels) => {
-  //   labels === "Vegan" ? labels : "hallooooo"
-  // })
-  // const prefHealth = ("Vegan")
-  // const matchedLabels = item.healthLabels.filter((healthLabel) => {
-  // 	return healthLabel.includes(prefHealth);
-  // });
-  
